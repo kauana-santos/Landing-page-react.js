@@ -1,0 +1,22 @@
+.containerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #abd6ffd1;
+    height: 8vh;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+}
+
+ li{
+    list-style: none;
+    margin-right: 10px;
+
+}
+
+li a { text-decoration: none;}

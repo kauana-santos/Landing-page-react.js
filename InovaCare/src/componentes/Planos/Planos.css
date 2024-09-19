@@ -1,0 +1,23 @@
+.planos{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.contanier-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Planos-card{
+    width: 300px;
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    
+}
