@@ -12,12 +12,12 @@ const Planos = () => {
             <div className="Planos-card">
                 <h3>Titulo</h3>
                 <ul>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    
                 </ul>
-                <div>
+                <div className="planos-card-desc">
                     <span>Valor</span>
                     <button>Assinar Plano</button>
                 </div>
@@ -25,12 +25,11 @@ const Planos = () => {
             <div className="Planos-card">
                 <h3>Titulo</h3>
                 <ul>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 </ul>
-                <div>
+                <div className="planos-card-desc">
                     <span>Valor</span>
                     <button>Assinar Plano</button>
                 </div>
@@ -38,12 +37,12 @@ const Planos = () => {
             <div className="Planos-card">
                 <h3>Titulo</h3>
                 <ul>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    
                 </ul>
-                <div>
+                <div className="planos-card-desc">
                     <span>Valor</span>
                     <button>Assinar Plano</button>
                 </div>
