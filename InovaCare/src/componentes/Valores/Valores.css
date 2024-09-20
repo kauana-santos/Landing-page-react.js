@@ -1,11 +1,11 @@
 
 .container-valor{
     height: 20vh;
-    background-color: aquamarine;
     display: flex;
     padding: 5px;
     align-items: center;
     margin: 0px 0px 6px 20px;
+    box-shadow: 1px 1px 5px #444;
     
 }
 .right{

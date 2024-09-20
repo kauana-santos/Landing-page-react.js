@@ -1,5 +1,6 @@
 import React from 'react'
 import "./NavBar.css"
+import Rodape from '../Rodape/Rodape'
 
 const NavBar = () => {
   return (

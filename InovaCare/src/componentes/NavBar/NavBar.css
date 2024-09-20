@@ -9,14 +9,14 @@
     width: 100%;
 }
 
-nav ul{
+nav > ul{
     display: flex;
 }
 
- li{
+nav > ul> li{
     list-style: none;
     margin-right: 10px;
 
 }
 
-li a { text-decoration: none;}
+nav > ul> li > a { text-decoration: none;}

@@ -2,51 +2,48 @@
 import "./Planos.css"
 
 const Planos = () => {
+
+    const planos= [
+        {
+            nomePlano: "Plano Básico",
+            descricao: "Acesso a consultas online ilimitadas com médicos de família e clínicos gerais.",
+            valor: "R$ 30,00"
+        },
+        {
+            nomePlano: "Plano Avançado",
+            descricao: "Inclui acompanhamento personalizado com especialistas e exames preventivos.",
+            valor: "R$ 30,00"
+        },
+        {
+            nomePlano: "Plano Premium",
+            descricao: "Acesso 24/7 a consultas, monitoramento remoto de saúde, plano personalizado de dieta e exercícios, e suporte prioritário.",
+            valor: "R$ 30,00"
+        }
+
+    ]
   return (
     <section className="planos">
         <div>
-            <h2>Nossoa Planos</h2>
+            <h2>Nossos Planos</h2>
         </div>
 
         <div className="contanier-cards">
-            <div className="Planos-card">
-                <h3>Titulo</h3>
+            {planos.map(plano => (
+                <div className="Planos-card">
+                <h3>{plano.nomePlano}</h3>
                 <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>{plano.descricao}</li>
+        
                     
                 </ul>
                 <div className="planos-card-desc">
-                    <span>Valor</span>
+                    <span>{plano.valor}</span>
                     <button>Assinar Plano</button>
                 </div>
             </div>
-            <div className="Planos-card">
-                <h3>Titulo</h3>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                </ul>
-                <div className="planos-card-desc">
-                    <span>Valor</span>
-                    <button>Assinar Plano</button>
-                </div>
-            </div>
-            <div className="Planos-card">
-                <h3>Titulo</h3>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    
-                </ul>
-                <div className="planos-card-desc">
-                    <span>Valor</span>
-                    <button>Assinar Plano</button>
-                </div>
-            </div>
+               
+            ))}
+            
         </div>
     </section>
   )
