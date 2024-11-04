@@ -20,23 +20,24 @@ h2{
 .Planos-card{
     width: 300px;
     height: 400px;
-    background-color: antiquewhite;
+    background-color: #f1f3f6;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 6px;
     border-radius: 15px;
+    box-shadow: 1px 1px 5px #afb0b0;
     transition: 1s;
 }
 
 .Planos-card > ul> li{
-    list-style: circle;
+    list-style: none;
 }
 
 .Planos-card:hover{
-    transition: 1.5s;
-    box-shadow: 1px 1px 5px rgb(78, 78, 168);
+    transition: 1s;
+    box-shadow: 1px 1px 5px rgb(203, 203, 203);
 }
 
 .planos-card-desc{
@@ -57,7 +58,7 @@ h2{
 }
 
 button:hover{
-    background-color: aquamarine;
+    background-color: #1b98e0;
     transition: .3s;
     
 }

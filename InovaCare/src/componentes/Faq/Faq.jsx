@@ -4,16 +4,16 @@ import "./Faq.css"
 const Faq = () => {
     const src = [
         {
-            summary: "Problema 4",
-            detail: "Texto texto texto"
+            summary: "Os planos da InovaCare cobrem consultas de especialistas?",
+            detail: "Sim! Oferecemos diferentes planos que incluem tanto consultas com médicos clínicos gerais quanto com especialistas, como cardiologistas, nutricionistas e psicólogos."
         },
         {
-            summary: "Problema 2",
-            detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ad reprehenderit consectetur animi earum, esse eaque aperiam nostrum. Dolorum delectus, omnis labore nihil incidunt fugit eos optio aut earum reiciendis?"
+            summary: "Como funciona o processo de consulta online na InovaCare?",
+            detail: "Nossas consultas online são simples e rápidas. Basta escolher o profissional de saúde, agendar um horário que funcione para você e, no momento da consulta, conectar-se através da nossa plataforma, diretamente pelo seu dispositivo."
         },
         {
-            summary: "Problema 3",
-            detail: "Texto texto texto"
+            summary: "Como é garantida a privacidade e segurança dos meus dados de saúde?",
+            detail: "A InovaCare segue os mais altos padrões de segurança cibernética e todas as informações de saúde são criptografadas. Garantimos que seus dados estejam protegidos e acessíveis apenas por você e pelos profissionais autorizados."
         }
     ]
   return (

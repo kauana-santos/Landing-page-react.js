@@ -1,7 +1,7 @@
 .card{
     width: 220px;
     height: 30vh;
-    background-color: bisque; 
+    background-color: #e8f1f2; 
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border: 1px solid #dddddd;
@@ -10,4 +10,10 @@
 
 .card div p {
     font-size: .9rem;
+    margin-top: 10px;
+    line-height: .5cm;
 }
+.icone > svg > path{
+    height: 50px;
+}
+

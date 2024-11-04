@@ -4,7 +4,8 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #abd6ffd1;
+    background-color: #006494;
+    position: fixed;
     height: 8vh;
     width: 100%;
 }
