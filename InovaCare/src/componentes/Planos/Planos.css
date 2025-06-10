@@ -1,7 +1,7 @@
 .planos{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: fit-content;
     justify-content: center;
     
 }
@@ -15,6 +15,7 @@ h2{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .Planos-card{
@@ -29,6 +30,8 @@ h2{
     border-radius: 15px;
     box-shadow: 1px 1px 5px #afb0b0;
     transition: 1s;
+    margin: 10px;
+    
 }
 
 .Planos-card > ul> li{

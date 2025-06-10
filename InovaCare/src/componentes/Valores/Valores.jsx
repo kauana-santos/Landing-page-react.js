@@ -28,7 +28,7 @@ const Valores = () => {
             </div>
         </div>
         <div className='container-valor right'>
-            <div ><img src="" alt="imagem" /></div>
+            <div ><img src="" alt="" /></div>
             <div>
                 <h4>Cuidado Humanizado</h4>
                 <p>Por trás de cada consulta digital, há um profissional comprometido com o bem-estar e a empatia. Na InovaCare, tratamos nossos pacientes com o carinho e o respeito que eles merecem. </p>

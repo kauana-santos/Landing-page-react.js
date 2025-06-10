@@ -5,8 +5,8 @@
     padding: 10px;
     align-items: center;
     margin: 0px 0px 20px 20px;
-    box-shadow: 1px 1px 5px #c7c7c7;
-    background-color: #dfedf1;
+    box-shadow: 1px 1px 5px #c7c7c75c;
+    
     
 }
 .right{
@@ -21,13 +21,13 @@
 
 
 .left p{
-    width: 800px;
+    max-width: 800px;
     line-height: 1.2;
     font-size: 16.5px;
 }
 
 
 .valores{
-    height: 100vh;
+    height: fit-content;
     width: 100%;
 }
