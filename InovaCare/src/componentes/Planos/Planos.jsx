@@ -16,6 +16,7 @@ const Planos = () => {
         },
         {
             nomePlano: "Plano Premium",
+            valor:"",
             descricao: "Acesso 24/7 a consultas, monitoramento remoto de saúde, plano personalizado de dieta e exercícios, e suporte prioritário.",
             valor: "R$ 30,00"
         }

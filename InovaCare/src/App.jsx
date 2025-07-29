@@ -6,7 +6,7 @@ import Hero from './componentes/Hero/Hero'
 import NavBar from './componentes/NavBar/NavBar'
 import Planos from './componentes/Planos/Planos'
 import Rodape from './componentes/Rodape/Rodape'
-import Servicos from './componentes/Servicos/servicos'
+import Servicos from './componentes/Servicos/Servicos'
 import Valores from './componentes/Valores/Valores'
 
 
@@ -15,7 +15,7 @@ function App() {
   
 
   return (
-    <>
+    <article>
       <NavBar/>
       <Hero/>
       <Servicos/>
@@ -23,7 +23,7 @@ function App() {
       <Valores/>
       <Faq/>
       <Rodape/>
-    </>
+    </article>
   )
 }
 
