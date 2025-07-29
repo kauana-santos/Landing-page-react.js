@@ -1,5 +1,6 @@
 import React from 'react'
 import Cards from "../Cards/Cards"
+import './Servicos.css'
 import { FaAmbulance } from "react-icons/fa"
 
 const Servicos = () => {

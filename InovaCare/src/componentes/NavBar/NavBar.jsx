@@ -9,11 +9,10 @@ const NavBar = () => {
 
         <nav>
             <ul>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Planos</a></li>
+                <li><a href="">Nossos valores</a></li>
+                <li><a href="">FAQ</a></li>
             </ul>
         </nav>
 
